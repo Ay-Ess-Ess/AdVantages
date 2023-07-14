@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  height: 70px;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: darkgray;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+  z-index: 100;
+}
+.logo-container {
+  background-color: aliceblue;
+  height: 68px;
+}
+.logo {
+  height: 100%;
+  cursor: pointer;
+}
+.name-container {
+  background-color: aqua;
+}
+.contactUs-container {
+  background-color: brown;
+}
+.contactUs {
+  color: white;
+}
