@@ -3,7 +3,6 @@
   height: 70px;
   flex-direction: row;
   justify-content: space-between;
-  justify-content: center;
   align-items: center;
   position: fixed;
   top: 0px;
@@ -13,6 +12,8 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(228, 228, 228);
+  padding-left: 50px;
+  padding-right: 50px;
   z-index: 100;
 }
 .logo-container {
@@ -23,12 +24,19 @@
   height: 100%;
   cursor: pointer;
 }
-.name-container {
-  background-color: aqua;
-}
-.contactUs-container {
-  background-color: brown;
-}
+.ourServices,
 .contactUs {
+  background-color: lightgray;
+  font-family: Ubuntu, Arial;
+  font-weight: 700;
   color: white;
+  border-radius: 8px;
+  padding: 8px;
+  text-decoration: none;
+  transition-duration: 700ms;
+  transition-property: background-color;
+}
+.ourServices:hover,
+.contactUs:hover {
+  background-color: rgb(0, 72, 255);
 }
