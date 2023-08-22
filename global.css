@@ -1,6 +1,8 @@
 body {
   margin: 0;
   line-height: normal;
+  background: rgb(17,15,56);
+  background: linear-gradient(90deg, rgba(17,15,56,1) 0%, rgba(80,72,236,1) 35%, rgba(155,72,236,1) 100%);
 }
 
 :root {
