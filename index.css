@@ -1209,18 +1209,20 @@
 .advantages-logo-website-1 {
   position: absolute;
   top: 0;
-  left: 41px;
   width: 200px;
-  height: 57.96px;
+  max-height: 57.96px;
   object-fit: cover;
 }
 .divcontent {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  width: 100%;
+  width: 98%;
+  margin-left: 1%;
   top: 0;
   right: 0;
   left: 0;
-  border: 1px solid rgba(75, 78, 252, 0.33);
+  border: none;
   box-sizing: border-box;
   height: 7679px;
   overflow: hidden;
