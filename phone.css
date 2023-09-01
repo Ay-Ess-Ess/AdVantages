@@ -59,6 +59,7 @@
 
   .how-we-operate-box {
     gap: 7%;
+    width: 96%;
     margin-bottom: 30%;
   }
   .how-we-operate-text-box {
@@ -68,7 +69,7 @@
     font-size: calc(var(--index) * 1.9);
   }
   .heading-1 {
-    font-size: calc(var(--index) * 2.5);
+    font-size: calc(var(--index) * 2.2);
   }
   .how-we-operate-clases-box {
     flex-direction: column;
@@ -82,7 +83,7 @@
 
   .web-design-element-3-1-group {
     height: calc(var(--index) * 180);
-    border: 1px solid green;
+    width: 96%;
   }
   .our-philosophy {
     font-size: calc(var(--index) * 1.9);
