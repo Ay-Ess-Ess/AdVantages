@@ -30,8 +30,8 @@ function resizing() {
     divcontentElement.style.height = 'calc(var(--index) * 212)';
     divElement.style.height = 'calc(var(--index) * 209)';
     weHelpBoxElement.style.width = 'calc(var(--index) * 16)';
-    weHelpBoxElement.style.right = 'calc(var(--index) * 3)';
-    weHelpBoxElement.style.bottom = 'calc(var(--index) * 3)';
+    weHelpBoxElement.style.right = 'calc(var(--index) * 2)';
+    weHelpBoxElement.style.bottom = 'calc(var(--index) * 2)';
     phoneIconElement.style.top = '1%';
     iconElement.style.position = 'absolute';
   } else if (width >= 600) {
