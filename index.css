@@ -1096,8 +1096,8 @@
   align-items: left;
   width: calc(var(--index) * 16);
   height  : calc(var(--index) * 7.4);
-  bottom: calc(var(--index) * 3);
-  right: calc(var(--index) * 3);
+  bottom: calc(var(--index) * 2);
+  right: calc(var(--index) * 2);
   gap: 10px;
 }
 .we-help-e-commerce {
@@ -1168,7 +1168,6 @@
   bottom: calc(var(--index) * 4);
   left: calc(var(--index) * 4);
   height: calc(var(--index) *5);
-  border: 1px solid red;
 }
 .link2 {
   cursor: pointer;
