@@ -77,7 +77,8 @@
   }
   .heading-1 {
     font-size: calc(var(--index) * 2.5);
-    width: 90%;
+    width: 94%;
+    letter-spacing: -1px;
   }
   .how-we-operate-clases-box {
     flex-direction: column;
