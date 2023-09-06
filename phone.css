@@ -308,7 +308,7 @@
     position: absolute;
     font-size: calc(var(--index) * 1);
     width: 96%;
-    bottom: 0;
+    bottom: -7%;
     left: 0;
     font-size: calc(var(--index) * 1.1);
   }
