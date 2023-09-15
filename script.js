@@ -27,7 +27,7 @@ iconElement.classList.add('icon-place');
 function resizing() {
   width = window.outerWidth;
   height = window.outerHeight;
-  if (width >= 1600) {
+  if (width >= 1000) {
     averegeRoiElement.style.display = 'inline';
     conversionRateElement.style.display = 'inline';
     divcontentElement.style.height = 'calc(var(--index) * 220)';
@@ -43,7 +43,7 @@ function resizing() {
     whereCreating1Element.style.width = 'calc(var(--index) * 50)';
     whereCreating2Element.style.width = 'calc(var(--index) * 50)';
 
-  } else if (width >= 768 && width < 1600) {
+  } else if (width >= 768 && width < 1000) {
     averegeRoiElement.style.display = 'none';
     conversionRateElement.style.display = 'none';
     iconElement.style.position = 'relative';
