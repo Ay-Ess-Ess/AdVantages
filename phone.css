@@ -343,7 +343,7 @@
 }
 
 
-@media screen and (max-width: 1600px) and (min-width: 768px) {
+@media screen and (max-width: 1000px) and (min-width: 768px) {
   .divcontent {
     height: calc(var(--index) * 295);
   }
