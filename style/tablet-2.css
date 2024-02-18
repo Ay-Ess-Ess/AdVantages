@@ -1,0 +1,278 @@
+@media (max-width: 900px) and (min-width: 720px) {
+
+    /*General*/
+    .general-container {
+        gap: 15vh;
+    }
+
+    /*Header*/
+    .header {
+        display: flex;
+        justify-content: space-between;
+        vertical-align: center;
+        align-items: center;
+        width: 100%;
+        height: 9.5vh;
+    } 
+
+    /*Hero*/
+    .hero {
+        height: 92vh;
+        background-repeat: no-repeat;
+        background-size:110%;
+        margin-bottom: 3vh;
+    }
+    .under-hero {
+        bottom: 0;
+    }
+    .tag-list {
+        font-size: 32px;
+        padding-bottom: 20px;
+        padding-top:20px;
+    }
+
+    /*Our Philosophy*/
+    .our-philosophy-left {
+        height: 70vh;
+        width: 45%;
+    }
+    .our-philosophy-left-top {
+        font-size: 30px;
+    }
+    .our-philosophy-right {
+        height: 40vh;
+        width: 45%;
+        gap: 3%;
+    }
+    .our-philosophy-left-bottom-img-1 {
+        border-radius: 3vh;
+    }
+    .our-philosophy-left-bottom-img-2 {
+        border-radius: 3vh;
+    }
+    .our-philosophy-right-l-t {
+        border-radius: 3vh;
+        margin-bottom: 2vh;
+    }
+    .our-philosophy-right-l-b {
+        border-radius: 3vh;
+        height: 40%;
+    }
+    .our-philosophy-right-r-t {
+        border-radius: 3vh;
+        margin-bottom: 2vh;
+    }
+    .our-philosophy-right-r-b {
+        border-radius: 3vh;
+    }
+    .section-name {
+        font-size: 20px;
+    }
+
+    /*At Advantages Digital*/
+    .at-advantages-digital {
+        width: 80%;
+        font-size: 34px;
+    }
+
+    /*How we operate*/
+    .how-we-operate {
+        gap: 5vh;
+    }
+    .how-we-operate-top {
+        width: 75%;
+    }
+    .how-we-operate-top h2 {
+        font-size: 34px;
+    }
+    .how-we-operate-center {
+        gap: 2%;
+        width: 90%;
+        height: 45vh;
+        padding-top: 4vh;
+    }
+    .how-we-operate-center-containers {
+        width: 30%;
+        height: 95%;
+        border-radius: 5vh;
+    }
+    .how-we-operate-center-containers img {
+        font-size: 7vh;
+        width: 35%;
+        margin-bottom: 20%;
+        margin-left: 3%;
+    }
+    .how-we-operate-center-containers h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .how-we-operate-center-containers p {
+        font-size: 14px;
+        margin-bottom: none;
+        width: 100%;
+        margin-left: auto;
+    }
+    .how-we-operate-bottom {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        width: 73%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 2vh;
+        flex-wrap: wrap;
+    }
+
+    /*Service delivery*/
+    .service-delivery h2 {
+        font-size: 40px;
+    }
+    .service-delivery-content {
+        width: 90%;
+    }
+
+    /* What we can do for you */
+    .do-for-you-top h2  {
+        font-size: 40px;
+    }
+    .do-for-you-bottom {
+        width: 85%;
+        height: 80%;
+        gap: 3%;
+    }
+    .do-for-you-bottom-left {
+        width: 55%;
+        gap: 2vh;
+        border: 1px solid red;
+    }
+    .do-for-you-bottom-left h2 {
+        font-size: 28px;
+        margin: 0 0 2vh 0;
+    }
+    .do-for-you-bottom-left p {
+        font-size: 20px;
+    }
+    .do-for-you-bottom-right {
+        width: 43%;
+        height: 60vh;
+        border: 1px solid green;
+    }
+
+    /* Schedule */
+    .schedule-top h1 {
+        font-size: 35px;
+    }
+    .schedule-bottom {
+        padding: 2vh 2vh;
+        width: 85%;
+        gap: 3%;
+    }
+    .schedule-bottom-left { 
+        background-color: #D9D9D9;
+        border-radius: 3vh;
+        width: 45%;
+    }
+    .schedule-bottom-right {
+        width: 60%;
+        height: 95%;
+        color: white;
+        margin-bottom: 3vh;
+    }
+    .adrian-image {
+        height: 18vh;
+        width: 18vh;
+        border: 0.5vh solid white;
+        border-radius: 50%;
+    }
+    .schedule-bottom-right h2{
+        font-size: 27px;
+    }
+    .schedule-bottom-right p{
+        font-size: 24px;
+        width: 90%;
+    }
+    .schedule-bottom-right ul li {
+        font-size: 20px;
+    }
+    .schedule-bottom-right ul li span {
+        color: #A594FD;
+    }
+
+    /*Inquiry*/
+    .inquiry {
+        margin-top: 7vh;
+        gap: 4vh;
+    }
+    .inquiry-top h1 {
+        margin-bottom: 1.5vh;
+        margin-top: 0;
+        font-size: 65px;
+    }
+    .inquiry-top p{
+        font-size: 16px;
+    }
+    .inquiry-top p span{
+        color: #A594FD;
+    }
+    .inquiry input {
+        padding: 1.3vh 3vh;
+        padding-left: 1.2vh;
+        font-size: 16px;
+    }
+    .inquiry button {
+        border: none;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        border-radius: 8vh;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .inquiry button:hover {
+        font-size: 16px;
+    }
+    .pop-up {
+        height: 180%;
+        width: 60%;
+        top: -20vh;
+    }
+    .pop-up p {
+        margin: 0;
+        margin-bottom: 2%;
+        font-size: 14px;
+    }
+    .pop-up h1 {
+        font-size: 40px;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+    .pop-up-input {
+        display: flex;
+        gap: 5%;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        vertical-align: center;
+        text-align: center;
+        padding: 3vh 5vh;
+        margin-top: 9vh;
+        user-select: none;
+    }
+    .footer-center {
+        display: flex;
+        text-align: center;
+        vertical-align: center;
+        align-items: center;
+        font-size: 16px;
+        margin-left: -2vh;
+    }
+    .footer-center a, .footer-center p{
+        font-size: 16px;
+    }
+    
+}

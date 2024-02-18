@@ -1,0 +1,391 @@
+@media (max-width: 720px) {
+
+    /*General*/
+    .general-container {
+        gap: 10vh;
+    }
+
+    /*Header*/
+    .header {
+        display: flex;
+        justify-content: space-between;
+        vertical-align: center;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        margin-bottom: 5vh;
+    } 
+    .header-schedule {
+        height: 50%;
+        width: 100%;
+        border-radius: 100vh;
+        font-size: 1.1vh;
+        font-weight: 600;
+        user-select: none;
+        cursor: pointer;
+        transition: 0.5s;
+        background-color: white;
+    }
+    .header-schedule:hover {
+        font-size: 1.12vh;
+        height: 52%;
+        width: 105%;
+    }
+
+    /*Hero*/
+    .hero {
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size:150%;
+    }
+    .under-hero {
+        bottom: 0;
+    }
+    .tag-list {
+        font-size: 20px;
+        padding-bottom: 12px;
+        padding-top:12px;
+    }
+
+    /*Our Philosophy*/
+    .our-philosophy {
+        display: none;
+    }
+    .our-philosophy-phone {
+        display: flex;
+        flex-direction: column;
+        vertical-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        padding: 0 3vh;
+        user-select: none;
+        height: 80vh;
+    }
+    .section-name {
+        color: #A594FD;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .our-philosophy-phone-top {
+        height: 30%;
+        width: 100%;
+        color: white;
+    }
+    .our-philosophy-phone-top h2 {
+        margin: 0;
+        font-size: 40px;
+    }
+    .our-philosophy-phone-bottom {
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    }
+    .our-philosophy-phone-bottom-right {
+        position: relative;
+        margin-top: -27%;
+        width: 50%;
+        height: 100%;
+        gap: 2%;
+    }
+    .our-philosophy-phone-bottom-right img {
+        width: 100%;
+        border-radius: 3vh;
+    }
+    .our-philosophy-phone-bottom-left {
+        width: 50%;
+        height: 100%;
+        gap: 2%;
+    }
+    .our-philosophy-phone-bottom-left img {
+        width: 100%;
+        border-radius: 3vh;
+    }
+
+    /*At Advantages Digital*/
+    .at-advantages-digital {
+        width: 80%;
+        font-size: 24px;
+    }
+
+    /*How we operate*/
+    .how-we-operate {
+        gap: 1vh;
+        user-select: none;
+    }
+    .how-we-operate-top {
+        width: 95%;
+    }
+    .how-we-operate-top h2 {
+        font-size: 30px;
+    }
+    .how-we-operate-center {
+        gap: 5%;
+        margin-bottom: 2vh;
+        width: 90%;
+        height: 45vh;
+        padding-top: 4vh;
+        justify-content: left;
+        display: flex;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        align-items: center;
+    }
+    .how-we-operate-center-containers {
+        height: 100%;
+        width: 100%;
+        scroll-snap-align: start;
+        background-color: #101010;
+        flex-shrink: 0;
+        border-radius: 5vh;
+        transition: 0;
+    }
+    .how-we-operate-center-containers:hover {
+        transition: 0; 
+        height: 100%;
+        width: 100%;
+    }
+    .how-we-operate-center-containers img {
+        font-size: 7vh;
+        width: 35%;
+        margin-bottom: 20%;
+        margin-left: 3%;
+    }
+    .how-we-operate-center-containers h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .how-we-operate-center-containers p {
+        font-size: 14px;
+        margin-bottom: none;
+        width: 100%;
+        margin-left: auto;
+    }
+    .how-we-operate-bottom {
+        display: none;
+    }
+    .arrows {
+        display: flex;
+        justify-content: center;
+        gap: 4%;
+        width: 100%;
+        user-select:none;
+    }
+    .arrow {
+        padding: 1vh 0;
+        width: 43%;
+        font-size: 35px;
+        cursor: pointer;
+        border-radius: 4vh;
+        user-select:none;
+    }
+    .left {
+        background-color: #101010;
+        color: white;
+    }
+    .right {
+        background-color: white;
+        color: #101010;
+    }
+
+    /*Service delivery*/
+    .service-delivery h2 {
+        width: 70%;
+        font-size: 30px;
+    }
+    .service-delivery-content {
+        width: 90%;
+    }
+
+    /* What we can do for you */
+    .do-for-you-top h2  {
+        font-size: 30px;
+    }
+    .do-for-you-bottom {
+        width: 100%;
+        height: 100%;
+        gap: 3%;
+    }
+    .do-for-you-bottom-left {
+        display: none;
+    }
+    .do-for-you-bottom-right {
+        width: 95%;
+    }
+
+    /* Schedule */
+    .schedule {
+        width: 100%;
+        gap: 5vh;
+    }
+    .schedule-top {
+        width: 90%;
+    }
+    .schedule-top h1 {
+        font-size: 34px;
+        line-height: 1;
+        margin: 0;
+    }
+    .schedule-bottom {
+        display: none;
+    }
+    .schedule-bottom-p {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(16, 16, 16);
+        border-radius: 3vh;
+        width: 80%;
+        gap: 0;
+        margin: 0;
+    }
+    .schedule-bottom-left { 
+        background-color: #D9D9D9;
+        border-radius: 3vh;
+        width: 100%;
+        height: 65vh;
+        margin-bottom: 2vh;
+    }
+    .schedule-bottom-right {
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+    }
+    .adrian-image {
+        height: 14vh;
+        width: 14vh;
+        border: 0.5vh solid white;
+        border-radius: 50%;
+    }
+    .schedule-bottom-right h2{
+        text-align: left;
+        font-size: 23px;
+        margin: 0;
+    }
+    .schedule-bottom-right p{
+        font-size: 16px;
+        width: auto;
+    }
+    .schedule-bottom-right ul {
+        width: 100%;
+        margin: 0;
+    }
+    .schedule-bottom-right ul li {
+        text-align: left;
+        font-size: 12px;
+    }
+    .schedule-bottom-right ul li span {
+        color: #A594FD;
+    }
+
+    /*Inquiry*/
+    .inquiry {
+        gap: 0;
+        text-align: left;
+        align-items: left;
+        width: 100%;
+        margin-bottom: 10vh;
+    }
+    .inquiry-top {
+        width: 85%;
+    }
+    .inquiry-top h1 {
+        margin-bottom: 1.5vh;
+        margin-top: 0;
+        font-size: 30px;
+    }
+    .inquiry-top p{
+        font-size: 16px;
+    }
+    .inquiry-top p span{
+        color: #A594FD;
+    }
+    .inquiry input {
+        padding: 1.3vh 3vh;
+        padding-left: 1.2vh;
+        font-size: 16px;
+    }
+    .inquiry-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        margin-top: 2vh;
+        width: 85%;
+    }
+    .inquiry button {
+        border: none;
+        padding: 1.3vh 3vh;
+        border-radius: 1vh;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .inquiry button:hover {
+        font-size: 16px;
+    }
+    .pop-up {
+        bottom: 15%;
+        padding: 7vh 3vh;
+        border: 1px solid white;
+        box-shadow: none;
+    }
+    .pop-up p {
+        margin: 0;
+        margin-bottom: 2%;
+        font-size: 12px;
+    }
+    .pop-up h1 {
+        font-size: 28px;
+        font-weight: 600;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .pop-up-input-container {
+        display: flex;
+        gap: 5%;
+    }
+    .pop-up-input {
+        padding: 1.3vh 0.5vh;
+        padding-left: 1vh;
+        font-size: 16px;
+        color: white;
+    }
+    .pop-up-button {
+        font-size: 16px;
+        padding: 1.3vh 2vh;
+    }
+
+    /* Footer */
+    .footer-left, .footer-center, .footer-right {
+        display: none;
+    }
+    footer {
+        padding: 0 0;
+    }
+    .footer-phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .copyrights-phone {
+        color: white;
+        font-size: 10px;
+    }
+    .footer-logo {
+        width: 30%;
+    }
+}
