@@ -216,6 +216,12 @@
     .do-for-you-bottom-right {
         width: 95%;
     }
+    .do-for-image {
+        display:none;
+    }
+    .phone-do-for-image {
+        display:flex;
+    }
 
     /* Schedule */
     .schedule {
