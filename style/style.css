@@ -91,7 +91,7 @@ body {
     width: 100%;
     -webkit-mask: linear-gradient(180deg, transparent, white 20%, white 80%, transparent);
     mask: linear-gradient(180deg, transparent, white 8%, white 20%, transparent);
-    background-image: url("../images/website-background.png");
+    background-image: url("../images/website-background.jpg");
     background-position: 50% 20%;
     background-size:80%;
     height: 54vw;
@@ -575,13 +575,23 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+.pop-up-container {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    text-align: center;
+}
 .pop-up {
-    position: absolute;
+    position: relative;
     background-color: #101010;
     border-radius: 5vh;
     padding: 10vh 15vh;
-    bottom: 14%;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     vertical-align: center;
@@ -627,17 +637,21 @@ body {
     margin-bottom: 5%;
 }
 .pop-up-input-container {
-    display: flex;
-    gap: 5%;
+    display: inline-block;
+}
+.pop-up-input  {
+    display: inline-block;
+    margin-right: 1vw;
 }
 .inquiry button, .pop-up-button {
-    padding: 0px 5vh;
+    display: inline-block;
+    padding: 1vw 2vw;
     transition: 0.5s;
 }
 .inquiry button:hover, .pop-up-button:hover {
     transition: 0.5s;
     background-color: #A594FD;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
 }
 
