@@ -57,7 +57,7 @@
         vertical-align: center;
         align-items: center;
         justify-content: center;
-        gap: 8vw;
+        gap: 2vw;
         padding: 0 3vh;
         user-select: none;
         height: 170vw;
@@ -82,23 +82,26 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 2%;
+        gap: 1.5vw;
     }
     .our-philosophy-phone-bottom-right {
-        position: relative;
+        display: flex;
+        flex-direction: column;
         margin-top: -21vw;
         width: 50%;
         height: 100%;
-        gap: 2vw;
+        gap: 1.5vw;
     }
     .our-philosophy-phone-bottom-right img {
         width: 100%;
         border-radius: 3vw;
     }
     .our-philosophy-phone-bottom-left {
+        display: flex;
+        flex-direction: column;
         width: 50%;
         height: 100%;
-        gap: 2vw;
+        gap: 1.5vw;
     }
     .our-philosophy-phone-bottom-left img {
         width: 100%;
