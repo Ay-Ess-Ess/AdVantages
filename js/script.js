@@ -1,5 +1,6 @@
 const scrollers = document.querySelectorAll('.scroller');
 let currentArrow= 1;
+let currentPopUp= 0;
 
 if(!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     addAnimation();
@@ -37,32 +38,28 @@ function scrollFunction(target) {;
     element.scrollIntoView({ behavior: 'smooth'});
 }
 
-let currentPopUp= 0;
-function popUp() {
+function popUp(ver = 1) {
     const popUpElement= document.querySelector(".pop-up");
     const bodyElement = document.querySelector(".mask-back");
-    const message = document.querySelector(".inquiry-button").value;
-    if(message== '') {
-
+    let messageInput = document.querySelector(".inquiry-button");
+    if(messageInput.value === '' && ver === 1) {
+        return ;
     }
     else if(currentPopUp==0) {
         popUpElement.style.display="flex";
-        document.querySelector(".message-js").value= message;
-        message= '';
-        bodyElement.style.mask= "linear-gradient(0deg, transparent, white 80%, white 10%, transparent)";
+        document.querySelector(".message-js").value= messageInput.value;
+        messageInput.value= "";
+        bodyElement.style.mask= "linear-gradient(180deg, transparent, white 300%, white 0%, transparent)";
         document.body.style.overflow = "hidden";
         currentPopUp=1;
     } else {
-        if(document.querySelector(".pop-up-input-js").value == '') {
-            
-        }
-        else {
-            popUpElement.style.display="none";
-            bodyElement.style.mask= "unset";
-            document.body.style.overflow = "auto";
-            currentPopUp=0;
-        }
+        popUpElement.style.display="none";
+        document.querySelector(".pop-up-input-js").value = "";
+        bodyElement.style.mask= "unset";
+        document.body.style.overflow = "auto";
+        currentPopUp=0;
     }
+    console.log("Hy");
 }
 
 function goRight() {
