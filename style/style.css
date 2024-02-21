@@ -107,7 +107,7 @@ body {
     margin: 0;
     padding-inline: 0;
     list-style: none;
-    font-size: 40px;
+    font-size: 2.5vw;
     font-weight: bold;
     display: flex;
     user-select: none;
@@ -148,18 +148,18 @@ body {
     user-select: none;
 }
 .our-philosophy-left {
-    height: 100vh;
+    height: 53vw;
     width: 40%;
 }
 .our-philosophy-left-top {
     color: white;
-    font-size: 7vh;
+    font-size: 3vw;
     font-weight: 600;
-    line-height: 1vh;
+    line-height: 0.9vw;
 }
 .section-name {
     color: #A594FD;
-    font-size: 24px;
+    font-size: 2.8vh;
     font-weight: 400;
 }
 .our-philosophy-left-bottom {
@@ -170,12 +170,12 @@ body {
 }
 .our-philosophy-left-bottom-img-1 {
     width: 52%;
-    border-radius: 4vh;
+    border-radius: 1.5vw;
     transition: 0.5s;
 }
 .our-philosophy-left-bottom-img-2 {
     width: 46%;
-    border-radius: 3vh;
+    border-radius: 1.5vw;
     transition: 0.5s;
 }
 .our-philosophy-right {
@@ -192,12 +192,12 @@ body {
     width: 50%;
 }
 .our-philosophy-right-l-t {
-    border-radius: 4vh;
+    border-radius: 1.5vw;
     height: 40%;
     margin-bottom: 2vh;
 }
 .our-philosophy-right-l-b {
-    border-radius: 4vh;
+    border-radius: 1.5vw;
     height: 40%;
 }
 .our-philosophy-right-r {
@@ -206,12 +206,12 @@ body {
     width: 50%;
 }
 .our-philosophy-right-r-t {
-    border-radius: 4vh;
+    border-radius: 1.5vw;
     height: 40%;
     margin-bottom: 2vh;
 }
 .our-philosophy-right-r-b {
-    border-radius: 4vh;
+    border-radius: 1.5vw;
     height: 40%;
 }
 
@@ -226,7 +226,7 @@ body {
 }
 .at-advantages-digital {
     width: 75%;
-    font-size: 62px;
+    font-size: 3.4vw;
     color: white;
 }
 
@@ -237,7 +237,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 5vh;
+    gap: 3vw;
     user-select: none;
 }
 .how-we-operate-top {
@@ -260,8 +260,8 @@ body {
     vertical-align: center;
     gap: 2%;
     width: 80%;
-    height: 50vh;
-    padding-top: 4vh;
+    height: 27vw;
+    padding-top: 3vw;
 }
 .how-we-operate-center-containers {
     background-color: #101010 !important;
@@ -284,27 +284,27 @@ body {
 }
 .how-we-operate-center-containers img {
     position: absolute;
-    font-size: 7vh;
+    font-size: 3vw;
     width: 37%;
     color: #A594FD;
     margin-bottom: 13%;
     margin-left: 3%;
 }
 .how-we-operate-center-containers h2 {
-    font-size: 24px;
+    font-size: 4vw;
     font-weight: 600;
 }
 .how-we-operate-center-containers p {
-    font-size: 18px;
+    font-size: 0.9vw;
     margin-bottom: 10%;
-    width: 30vh;
-    margin-left: 4vh;
+    width: 15vw;
+    margin-left: 2vw;
 }
 .how-we-operate-bottom {
     color: white;
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 50vw;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -312,8 +312,8 @@ body {
     flex-wrap: wrap;
 }
 .how-we-operate-bottom p{
-    padding: 2vh 3vh;
-    border-radius: 1.5vh;
+    padding: 1vw 2vw;
+    border-radius: 1vw;
     font-weight: 600;
     background-color: #101010;
     margin: 0.1vh 0;
@@ -321,7 +321,7 @@ body {
 }
 .how-we-operate-bottom p:hover{
     transition: 0.5s;
-    padding: 2.2vh 3.2vh;
+    padding: 1.1vw 2.1vw;
     
 }
 .how-we-operate-bottom p:hover span{
@@ -345,10 +345,10 @@ body {
     text-align: center;
 }
 .service-delivery h2{
-    font-size: 62px;
+    font-size: 3.3vw;
 }
 .service-delivery-content {
-    width: 65%;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     gap: 1vh;
@@ -381,7 +381,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 5vh;
+    gap: 3vw;
     user-select: none;
 }
 .do-for-you-top {
@@ -389,8 +389,8 @@ body {
     height: 20%;
 }
 .do-for-you-top h2  {
-    font-size: 60px;
-    line-height: 1;
+    font-size: 3.2vw;
+    line-height: 3.5vw;
     margin: 0;
     font-weight: bold;
 }
@@ -413,17 +413,17 @@ body {
 }
 .do-for-you-bottom-left h2 {
     font-weight: 600;
-    font-size: 44px;
+    font-size: 2.2vw;
     margin: 0 0 3vh 0;
 }
 .do-for-you-bottom-left p {
     color: #ADADAD;
-    font-size: 25px;
+    font-size: 1.4vw;
     margin: 0;
 }
 .do-for-you-bottom-right {
     width: 33%;
-    height: 60vh;
+    height: 28vw;
     position: relative;
     display: flex;
     vertical-align: center;
@@ -455,7 +455,7 @@ body {
 
 /* Schedule */
 .schedule {
-    padding: 5vh 0;
+    padding: 3vw 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -471,13 +471,13 @@ body {
     line-height: 0;
 }
 .schedule-top h1 {
-    font-size: 6vh;
+    font-size: 3vw;
 }
 .schedule-bottom, .schedule-bottom-p {
     background-color: rgb(16, 16, 16);
-    border-radius: 3vh;
-    padding: 2vh 2vh;
-    width: 70%;
+    border-radius: 2vw;
+    padding: 1vw 1vw;
+    width: 70vw;
     display: flex;
     gap: 3%;
 }
@@ -496,23 +496,23 @@ body {
     margin-bottom: 3vh;
 }
 .adrian-image {
-    height: 18vh;
-    width: 18vh;
+    height: 11vw;
+    width: 11vw;
     border: 0.5vh solid white;
     border-radius: 50%;
 }
 .schedule-bottom-right h2{
-    font-size: 32px;
+    font-size: 2vw;
 }
 .schedule-bottom-right p{
     color: #ADADAD;
-    font-size: 32px;
+    font-size: 1.3vw;
     width: 85%;
 }
 .schedule-bottom-right ul li {
     margin-top: 2vh;
     color: #ADADAD;
-    font-size: 24px;
+    font-size: 1.3vw;
 }
 .schedule-bottom-right ul li span {
     color: #A594FD;
@@ -528,20 +528,20 @@ body {
     text-align: center;
     position: relative;
     vertical-align: center;
-    gap: 4vh;
+    gap: 3.5vw;
     user-select: none;
     margin-bottom: 15vh;
 }
 .inquiry-top h1 {
-    margin-bottom: 1.5vh;
+    margin-bottom: 1.5vw;
     margin-top: 0;
-    font-size: 86px;
+    font-size: 5vw;
     font-weight: bold;
 }
 .inquiry-top p{
     margin-bottom: 0;
     margin-top: 0;
-    font-size: 22px;
+    font-size: 1.3vw;
 }
 .inquiry-top p span{
     color: #A594FD;
@@ -587,6 +587,31 @@ body {
     vertical-align: center;
     align-items: center;
     box-shadow: 0px 0px 2vh #A594FD;
+}
+.pop-up-close {
+    color: black;
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0.4vw 0.5vw;
+    transition: 0.5s;
+    cursor: pointer;   
+}
+.pop-up-close:hover {
+    transition: 0.5s;
+    background-color: #A594FD;
+    top: 1.9vw;
+    right: 1.9vw;
+    padding: 0.5vw 0.6vw;
+    font-size: 21px;
 }
 .pop-up p {
     margin: 0;
