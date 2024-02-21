@@ -2,7 +2,7 @@
 
     /*General*/
     .general-container {
-        gap: 10vh;
+        gap: 20vw;
     }
 
     /*Header*/
@@ -13,7 +13,7 @@
         align-items: center;
         width: 100%;
         height: 6vh;
-        margin-bottom: 5vh;
+        margin-bottom: 7vw;
     } 
     .header-schedule {
         height: 50%;
@@ -34,7 +34,7 @@
 
     /*Hero*/
     .hero {
-        height: 50vh;
+        height: 94vw;
         background-repeat: no-repeat;
         background-size:150%;
     }
@@ -42,9 +42,9 @@
         bottom: 0;
     }
     .tag-list {
-        font-size: 20px;
-        padding-bottom: 12px;
-        padding-top:12px;
+        font-size: 4.5vw;
+        padding-bottom: 2.5vw;
+        padding-top: 2.5vw;
     }
 
     /*Our Philosophy*/
@@ -57,7 +57,7 @@
         vertical-align: center;
         align-items: center;
         justify-content: center;
-        gap: 5%;
+        gap: 8vw;
         padding: 0 3vh;
         user-select: none;
         height: 170vw;
@@ -75,7 +75,7 @@
     }
     .our-philosophy-phone-top h2 {
         margin: 0;
-        font-size: 40px;
+        font-size: 8vw;
     }
     .our-philosophy-phone-bottom {
         height: 75%;
@@ -86,7 +86,7 @@
     }
     .our-philosophy-phone-bottom-right {
         position: relative;
-        margin-top: -27%;
+        margin-top: -21vw;
         width: 50%;
         height: 100%;
         gap: 2%;
@@ -108,7 +108,7 @@
     /*At Advantages Digital*/
     .at-advantages-digital {
         width: 80%;
-        font-size: 24px;
+        font-size: 6vw;
     }
 
     /*How we operate*/
@@ -120,7 +120,7 @@
         width: 95%;
     }
     .how-we-operate-top h2 {
-        font-size: 30px;
+        font-size: 6vw;
     }
     .how-we-operate-center {
         gap: 5%;
@@ -198,12 +198,34 @@
         font-size: 30px;
     }
     .service-delivery-content {
-        width: 90%;
+        width: 87%;
+    }
+    .service-delivery-content-top {
+        width: 100%;
+    }
+    .service-delivery-content-top img {
+        content:url("/images/what-we-do-phone.png");
+    }
+    .service-delivery-content-bottom {
+        flex-direction: column;
+        width: 100%;
+    }
+    .service-delivery-content-bottom-1 {
+        width: 100%;
+    }
+    .service-delivery-content-bottom-1 img {
+        content:url("/images/done-for-you-phone.png");
+    }
+    .service-delivery-content-bottom-2 {
+        width: 100%;
+    }
+    .service-delivery-content-bottom-2 img {
+        content:url("/images/done-with-you-phone.png");
     }
 
     /* What we can do for you */
     .do-for-you-top h2  {
-        font-size: 30px;
+        font-size: 7vw;
     }
     .do-for-you-bottom {
         width: 100%;
@@ -232,7 +254,7 @@
         width: 90%;
     }
     .schedule-top h1 {
-        font-size: 34px;
+        font-size:8vw;
         line-height: 1;
         margin: 0;
     }
@@ -274,11 +296,11 @@
     }
     .schedule-bottom-right h2{
         text-align: left;
-        font-size: 23px;
+        font-size: 7vw;
         margin: 0;
     }
     .schedule-bottom-right p{
-        font-size: 16px;
+        font-size: 5vw;
         width: auto;
     }
     .schedule-bottom-right ul {
@@ -287,7 +309,7 @@
     }
     .schedule-bottom-right ul li {
         text-align: left;
-        font-size: 12px;
+        font-size: 3.2vw;
     }
     .schedule-bottom-right ul li span {
         color: #A594FD;
@@ -307,18 +329,18 @@
     .inquiry-top h1 {
         margin-bottom: 1.5vh;
         margin-top: 0;
-        font-size: 30px;
+        font-size: 8vw;
     }
     .inquiry-top p{
-        font-size: 16px;
+        font-size: 4vw;
     }
     .inquiry-top p span{
         color: #A594FD;
     }
     .inquiry input {
-        padding: 1.3vh 3vh;
-        padding-left: 1.2vh;
-        font-size: 16px;
+        padding: 3vw 3vw;
+        padding-left: 1.2vw;
+        font-size: 4vw;
     }
     .inquiry-bottom {
         display: flex;
@@ -331,27 +353,31 @@
     }
     .inquiry button {
         border: none;
-        padding: 1.3vh 3vh;
-        border-radius: 1vh;
+        padding: 3vw 3vw;
+        border-radius: 3vw;
         font-weight: 600;
-        font-size: 15px;
+        font-size: 4vw;
     }
     .inquiry button:hover {
-        font-size: 16px;
+        font-size: 4.1vw;
     }
     .pop-up {
-        bottom: 15%;
-        padding: 7vh 3vh;
+        bottom: 20%;
+        padding: 15vw 3vw;
         border: 1px solid white;
         box-shadow: none;
+    }
+    .pop-up-close {
+        top: 5vw;
+        right: 5vw;
     }
     .pop-up p {
         margin: 0;
         margin-bottom: 2%;
-        font-size: 12px;
+        font-size: 3vw;
     }
     .pop-up h1 {
-        font-size: 28px;
+        font-size: 7vw;
         font-weight: 600;
         margin: 0;
         text-align: center;
@@ -359,17 +385,19 @@
     }
     .pop-up-input-container {
         display: flex;
-        gap: 5%;
+        flex-direction: column;
+        gap: 1vh;
     }
     .pop-up-input {
-        padding: 1.3vh 0.5vh;
-        padding-left: 1vh;
-        font-size: 16px;
+        padding: 2vw 3vw;
+        padding-left: 3vw;
+        width: 70vw;
+        font-size: 4vw;
         color: white;
     }
     .pop-up-button {
-        font-size: 16px;
-        padding: 1.3vh 2vh;
+        font-size: 4vw;
+        padding: 2.5vw 2vw;
     }
 
     /* Footer */
