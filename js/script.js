@@ -39,7 +39,7 @@ function scrollFunction(target) {;
 }
 
 function popUp(ver = 1) {
-    const popUpElement= document.querySelector(".pop-up");
+    const popUpElement= document.querySelector(".pop-up-container");
     const bodyElement = document.querySelector(".mask-back");
     let messageInput = document.querySelector(".inquiry-button");
     if(messageInput.value === '' && ver === 1) {
