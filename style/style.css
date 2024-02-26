@@ -490,6 +490,7 @@ body {
     width: 45%;
 }
 .schedule-bottom-left iframe{
+    border: none;
     border-radius: 3vh;
 }
 .schedule-bottom-right {
