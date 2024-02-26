@@ -485,9 +485,12 @@ body {
     display: none;
 }
 .schedule-bottom-left { 
-    background-color: #D9D9D9;
     border-radius: 3vh;
+    border: none;
     width: 45%;
+}
+.schedule-bottom-left iframe{
+    border-radius: 3vh;
 }
 .schedule-bottom-right {
     width: 60%;
@@ -671,7 +674,7 @@ footer {
     color: #CCCCCC;
 }
 .footer-center {
-    display: flex;
+    display: none;
     text-align: center;
     vertical-align: center;
     align-items: center;
