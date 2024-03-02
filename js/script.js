@@ -98,3 +98,21 @@ function goLeft() {
         currentArrow--;
     }
 }
+
+document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector(".general-container").style.display = "none";
+        document.getElementById("js-loading").src= "js/loadingScreen.js";
+        document.getElementById("loadingScreen").href = "style/loadingScreen.css";
+        document.querySelector("body").style.visibility = "";
+    } else {
+        document.getElementById("stylesheet").href = "style/style.css";
+        document.getElementById("tabletsheet").href = "style/tablet.css";
+        document.getElementById("tablet_2sheet").href = "style/tablet-2.css";
+        document.getElementById("phonesheet").href = "style/phone.css";
+        document.querySelector(".general-container").style.display = "flex";
+        document.getElementById("loadingScreen").href = "none";
+        document.querySelector("body").style.visibility = "visible";
+        document.getElementById("js-loading").src= "none";
+    }
+};
