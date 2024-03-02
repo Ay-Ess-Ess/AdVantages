@@ -22,6 +22,11 @@ body {
     gap: 7vw;
     transition: all 0.5s;
 }
+.vertical-centered-box, 
+.vertical-centered-box,
+.content {
+    display: none;
+}
 
 /*Header*/
 .header {
