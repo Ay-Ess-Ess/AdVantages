@@ -96,7 +96,6 @@ body {
     width: 100%;
     -webkit-mask: linear-gradient(180deg, transparent, white 20%, white 80%, transparent);
     mask: linear-gradient(180deg, transparent, white 8%, white 20%, transparent);
-    background-image: url("../images/website-background.jpg");
     background-position: 50% 20%;
     background-size:80%;
     height: 54vw;
