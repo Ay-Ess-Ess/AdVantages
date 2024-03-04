@@ -103,7 +103,6 @@ document.onreadystatechange = function() {
         document.querySelector(".general-container").style.display = "none";
         document.getElementById("js-loading").src= "js/loadingScreen.js";
         document.getElementById("loadingScreen").href = "style/loadingScreen.css";
-        document.querySelector("body").style.visibility = "";
     } else {
         document.getElementById("stylesheet").href = "style/style.css";
         document.getElementById("tabletsheet").href = "style/tablet.css";
