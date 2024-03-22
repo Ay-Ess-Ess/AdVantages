@@ -171,6 +171,7 @@ body {
     vertical-align: center;
     align-items: center;
     gap: 3%;
+    position: relative;
 }
 .our-philosophy-left-bottom-img-1 {
     width: 52%;
@@ -222,16 +223,30 @@ body {
 /* At Advantages Digital */
 .at-advantage-digital-container {
     width: 100%;
+    height: 20vw;
     display: flex;
     text-align: left;
     justify-content: center;
     align-items: center;
     user-select: none;
 }
-.at-advantages-digital {
+.at-advantages-digital-back {
+    font-size: 3vw;
     width: 75%;
-    font-size: 3.4vw;
+    color: rgb(32 32 32);
+    position: absolute;
+    
+}
+.at-advantages-digital-front {
+    font-size: 3vw;
+    width: 75%;
     color: white;
+    position: absolute;
+    transition: all 1s;
+}
+.show-text {
+    transition: all 1s;
+    opacity: 1;
 }
 
 /* How we operate */
@@ -281,11 +296,11 @@ body {
     position: relative;
     transition: 0.5s;
 }
-.how-we-operate-center-containers:hover {
+/* .how-we-operate-center-containers:hover {
     transition: 0.5s; 
     width: 31%;
     height: 96%;
-}
+} */
 .how-we-operate-center-containers img {
     position: absolute;
     font-size: 3vw;
@@ -323,14 +338,14 @@ body {
     margin: 0.1vh 0;
     transition: 0.5s;
 }
-.how-we-operate-bottom p:hover{
+/* .how-we-operate-bottom p:hover{
     transition: 0.5s;
     padding: 1.1vw 2.1vw;
     
 }
 .how-we-operate-bottom p:hover span{
     transition: 0.5s;
-}
+} */
 .how-we-operate-bottom span{
     transition: 0.5s;
     color: #A594FD;
@@ -695,4 +710,36 @@ footer {
 }
 .footer-phone {
     display: none;
+}
+
+/* Animation */
+.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+}
+@media(prefers-redused-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+.show {
+    opacity: 1;
+    filter: blur();
+}
+
+.animated-blocks {
+    box-shadow: 0 4px 40px -16px rgba(0, 0, 0 , 0.2);
+    position: relative;
+    /* overflow: hidden; */
+}
+.animated-blocks::after {
+    content: "";
+    position: absolute;
+    height: 150%;
+    width: 150%;
+    background: conic-gradient(red, yellow, blue, red);
+    /* left: 50%;
+    top: 50%; */
+    transform: translate(-50%, -50%);
 }
